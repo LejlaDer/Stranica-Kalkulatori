@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(222, 235, 242);
+    color: rgb(255, 255, 255);
+}
+
+#zaglavlje {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/zaglavljeslika.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*---EFEKT SCROLLANJA NA POČETNOJ STRANICI---*/
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    padding: 10px 10vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border: 1px solid rgb(151, 152, 152);
+    border-radius: 20px;
+
+}
+
+.logo {
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+nav a {
+    color: #fff;
+    position: relative;
+
+}
+
+#opcije {
+    padding: 30px;
+}
+
+.Podnaslov {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    -webkit-text-stroke: 1px #262626;
+}
+
+.mojeopcije {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.mojeopcije div {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+
+.mojeopcije div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(207, 136, 153);
+}
+
+.mojeopcije div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #262626;
+}
+
+
+.mojeopcije div:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.basicalc {
+    background-image: url(images/basicalc.jpg);
+    background-position-x: right;
+    background-position-y: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 8px 2px #aaa;
+}
+
+.pitagora {
+    background-image: url(images/triangle.jpg);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 135px;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 8px 2px #aaa;
+}
+
+.percent {
+    background-image: url(images/percent.png);
+    background-position: center;
+    background-position-x: right;
+    background-size: 260px;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 8px 2px #aaa;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+.footer {
+    width: 100;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(210, 156, 168);
+    font-weight: 300;
+    color: #262626;
+    margin-top: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    color: #262626;
+
+
+}
+
+.row {
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+}

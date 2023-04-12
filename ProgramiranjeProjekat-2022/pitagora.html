@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythagorean Theorem</title>
+    <link rel="stylesheet" href="pitagorastyle.css">
+    <script src="https://kit.fontawesome.com/a328305458.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            background-color: rgb(222, 235, 242);
+        }
+
+        * {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+
+        }
+
+        h1 {
+            color: rgb(193, 116, 170);
+            text-align: center;
+            -webkit-text-stroke: 1px #262626;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="home.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+        </nav>
+
+        <br>
+
+        <div>
+            <h1 style="font-style: italic;">PHYTHAGOREAN THEOREM</h1><span>
+        </div>
+
+    </div>
+
+    <div class="calc">
+        <h2>Enter the sides of the triangle: </h2>
+        <p>A: <input type="number" id="a" min="1"></p>
+        <p>B: <input type="number" id="b" min="1"></p>
+
+        <button onclick="findH()">Press to find the hypotenuse</button>
+
+        <p>A<sup>2</sup> = <span id="aSqu"></span>
+        <p>B<sup>2</sup> = <span id="bSqu"></span>
+        <p>A<sup>2</sup> + B<sup>2</sup> = <span id="aAndB"></span>
+        <p style="size: 40pc">HYPOTHENUSE = <span id="sqrtC"></span>
+    </div>
+
+    <br>
+    <div class="footer">
+        <p>Autor: Lejla Dervišević <i class="fa-sharp fa-solid fa-address-book"></i> </p>
+    </div>
+    </div>
+    <script src="pitagorascript.js"></script>
+</body>
+
+</html>
